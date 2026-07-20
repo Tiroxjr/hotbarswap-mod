@@ -10,7 +10,7 @@ import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 
-@EventBusSubscriber(modid = HotbarSwapMod.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = HotbarSwapMod.MODID)
 public class NetworkHandler {
 
     // Index du premier slot de la dernière rangée du 3x9, juste au-dessus de la hotbar.

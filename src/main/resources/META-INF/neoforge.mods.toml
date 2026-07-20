@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="hotbarswap"
+version="1.0.0"
+displayName="Hotbar Swap Mod"
+description='''Échange la hotbar avec la dernière rangée de l'inventaire via une touche.'''
+authors="Toi"
+
+[[dependencies.hotbarswap]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.11,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.hotbarswap]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.11,1.22)"
+    ordering="NONE"
+    side="BOTH"
